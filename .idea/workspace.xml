@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ba25fb8-838b-4f76-ba27-867ae9913bfc" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="simulation-squelette" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/simulation/state/SimulationEtat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ressources/configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineMetal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/Chemin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="44" selection-start-line="44" selection-end-line="56" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineAile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineAssemblage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="51" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineMoteur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/composants/Aile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/Entrepot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/models/Usine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TEST</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/simulation/Sujet.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Observable.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Observateur.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Ressource.java" />
+        <option value="$PROJECT_DIR$/src/simulation/StrategieVente.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Strategie.java" />
+        <option value="$PROJECT_DIR$/src/simulation/StrategieAleatoire.java" />
+        <option value="$PROJECT_DIR$/src/simulation/StrategieStatique.java" />
+        <option value="$PROJECT_DIR$/src/simulation/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Environnement.java" />
+        <option value="$PROJECT_DIR$/src/simulation/PanneauPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/simulation/FenetrePrincipale.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Entrepot.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Usine.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Batiment.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Reseau.java" />
+        <option value="$PROJECT_DIR$/src/simulation/Chemin.java" />
+        <option value="$PROJECT_DIR$/src/simulation/SimulationEtat.java" />
+        <option value="$PROJECT_DIR$/src/simulation/utils/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/ressources/configuration.xml" />
+        <option value="$PROJECT_DIR$/src/simulation/display/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/simulation/display/MenuFenetre.java" />
+        <option value="$PROJECT_DIR$/src/simulation/state/Reseau.java" />
+        <option value="$PROJECT_DIR$/src/simulation/utils/Observateur.java" />
+        <option value="$PROJECT_DIR$/src/simulation/display/FenetrePrincipale.java" />
+        <option value="$PROJECT_DIR$/src/simulation/display/PanneauPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/simulation/display/Environnement.java" />
+        <option value="$PROJECT_DIR$/src/simulation/composants/Metal.java" />
+        <option value="$PROJECT_DIR$/src/simulation/composants/Moteur.java" />
+        <option value="$PROJECT_DIR$/src/simulation/composants/Avion.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/UsineMetal.java" />
+        <option value="$PROJECT_DIR$/src/simulation/composants/Composant.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/Chemin.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/Batiment.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/Usine.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/UsineAile.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/UsineMoteur.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/UsineAssemblage.java" />
+        <option value="$PROJECT_DIR$/src/simulation/composants/Aile.java" />
+        <option value="$PROJECT_DIR$/src/simulation/models/Entrepot.java" />
+        <option value="$PROJECT_DIR$/src/simulation/state/SimulationEtat.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="57" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="composants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="display" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation-squelette" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549518863550" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulation.display.Simulation" />
+      <module name="simulation-squelette" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulation.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Simulation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ba25fb8-838b-4f76-ba27-867ae9913bfc" name="Default Changelist" comment="" />
+      <created>1547668065122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547668065122</updated>
+      <workItem from="1547668071515" duration="1389000" />
+      <workItem from="1548262398501" duration="4977000" />
+      <workItem from="1548269211356" duration="7752000" />
+      <workItem from="1548284550399" duration="8565000" />
+      <workItem from="1548859387393" duration="5919000" />
+      <workItem from="1548866127898" duration="1092000" />
+      <workItem from="1548867718662" duration="4969000" />
+      <workItem from="1548873370111" duration="8137000" />
+      <workItem from="1549032225206" duration="399000" />
+      <workItem from="1549479011080" duration="10377000" />
+      <workItem from="1549515539066" duration="3367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56943000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50054646" side_tool="true" weight="0.18463181" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49945354" visible="true" weight="0.20170757" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896176" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/simulation/models/Chemin.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/simulation/Factory.java" />
+    <entry file="file://$PROJECT_DIR$/src/ressources/E0%.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///usr/lib64/openjdk-8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="294" column="29" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/drakota/Documents/Projects/Java/Lab1/src/simulation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/simulation</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/StrategieVente.java" />
+    <entry file="uml://JAVA/simulation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>simulation</OriginalElement>
+          <nodes>
+            <node x="0.0" y="759.0">simulation.Entrepot</node>
+            <node x="400.1128787878787" y="452.0">simulation.Reseau</node>
+            <node x="588.8186868686868" y="735.0">simulation.Usine</node>
+            <node x="1015.8421717171717" y="1022.0">simulation.StrategieAleatoire</node>
+            <node x="230.0" y="747.0">simulation.Observable</node>
+            <node x="311.75" y="201.0">simulation.Ressource</node>
+            <node x="880.3550505050504" y="795.5">simulation.Strategie</node>
+            <node x="187.4550505050504" y="1188.0">simulation.XMLParser</node>
+            <node x="467.9550505050504" y="937.0">simulation.SimulationEtat</node>
+            <node x="460.4550505050504" y="1188.0">simulation.Environnement</node>
+            <node x="340.9050505050503" y="630.0">simulation.Observateur</node>
+            <node x="843.8421717171717" y="1022.0">simulation.StrategieStatique</node>
+            <node x="554.75" y="250.0">simulation.Chemin</node>
+            <node x="557.75" y="0.0">simulation.Batiment</node>
+            <node x="433.9550505050504" y="1391.0">simulation.Simulation</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="simulation.Reseau" target="simulation.Chemin">
+              <point x="102.75" y="-64.0" />
+              <point x="639.8628787878787" y="427.0" />
+              <point x="658.75" y="427.0" />
+              <point x="0.0" y="51.5" />
+            </edge>
+            <edge source="simulation.Simulation" target="simulation.Environnement">
+              <point x="0.0" y="-27.5" />
+              <point x="-63.5" y="76.5" />
+            </edge>
+            <edge source="simulation.SimulationEtat" target="simulation.Batiment">
+              <point x="47.80000000000001" y="-100.5" />
+              <point x="635.2550505050503" y="907.0" />
+              <point x="858.3421717171717" y="907.0" />
+              <point x="858.3421717171717" y="171.0" />
+              <point x="739.5500000000001" y="171.0" />
+              <point x="80.80000000000005" y="75.5" />
+            </edge>
+            <edge source="simulation.Usine" target="simulation.Observateur">
+              <point x="-73.33333333333331" y="-76.0" />
+              <point x="625.4853535353534" y="705.0" />
+              <point x="513.7050505050504" y="705.0" />
+              <point x="76.80000000000007" y="27.5" />
+            </edge>
+            <edge source="simulation.Simulation" target="simulation.XMLParser">
+              <point x="-60.0" y="-27.5" />
+              <point x="463.9550505050504" y="1366.0" />
+              <point x="313.9550505050504" y="1366.0" />
+              <point x="0.0" y="76.5" />
+            </edge>
+            <edge source="simulation.Usine" target="simulation.Batiment">
+              <point x="73.33333333333331" y="-76.0" />
+              <point x="772.1520202020201" y="715.0" />
+              <point x="789.5921717171717" y="715.0" />
+              <point x="789.5921717171717" y="181.0" />
+              <point x="699.1500000000001" y="181.0" />
+              <point x="40.40000000000002" y="75.5" />
+            </edge>
+            <edge source="simulation.Entrepot" target="simulation.Reseau">
+              <point x="26.25" y="-52.0" />
+              <point x="131.25" y="715.0" />
+              <point x="93.68787878787862" y="715.0" />
+              <point x="93.68787878787862" y="610.0" />
+              <point x="434.3628787878787" y="610.0" />
+              <point x="-102.75" y="64.0" />
+            </edge>
+            <edge source="simulation.Environnement" target="simulation.SimulationEtat">
+              <point x="-63.5" y="-76.5" />
+              <point x="523.9550505050504" y="1163.0" />
+              <point x="527.7050505050504" y="1163.0" />
+              <point x="-59.75" y="100.5" />
+            </edge>
+            <edge source="simulation.SimulationEtat" target="simulation.Strategie">
+              <point x="95.60000000000002" y="-100.5" />
+              <point x="683.0550505050504" y="917.0" />
+              <point x="897.3550505050504" y="917.0" />
+              <point x="-34.0" y="15.5" />
+            </edge>
+            <edge source="simulation.Entrepot" target="simulation.Ressource">
+              <point x="-26.25" y="-52.0" />
+              <point x="78.75" y="715.0" />
+              <point x="82.68787878787862" y="715.0" />
+              <point x="82.68787878787862" y="427.0" />
+              <point x="334.05" y="427.0" />
+              <point x="-89.19999999999999" y="100.5" />
+            </edge>
+            <edge source="simulation.Ressource" target="simulation.Observateur">
+              <point x="-44.60000000000002" y="100.5" />
+              <point x="378.65" y="427.0" />
+              <point x="377.2378787878787" y="427.0" />
+              <point x="377.2378787878787" y="600.0" />
+              <point x="388.9050505050503" y="600.0" />
+              <point x="-48.0" y="-27.5" />
+            </edge>
+            <edge source="simulation.Observateur" target="simulation.Reseau">
+              <point x="48.0" y="-27.5" />
+              <point x="484.9050505050503" y="610.0" />
+              <point x="502.8628787878787" y="610.0" />
+              <point x="-34.25" y="64.0" />
+            </edge>
+            <edge source="simulation.StrategieAleatoire" target="simulation.Strategie">
+              <point x="-1.1368683772161603E-13" y="-15.5" />
+              <point x="1093.3421717171716" y="917.0" />
+              <point x="965.3550505050503" y="917.0" />
+              <point x="33.999999999999886" y="15.5" />
+            </edge>
+            <edge source="simulation.SimulationEtat" target="simulation.Observateur">
+              <point x="-47.80000000000001" y="-100.5" />
+              <point x="539.6550505050503" y="917.0" />
+              <point x="543.375" y="917.0" />
+              <point x="543.375" y="715.0" />
+              <point x="475.3050505050503" y="715.0" />
+              <point x="38.39999999999998" y="27.5" />
+            </edge>
+            <edge source="simulation.Ressource" target="simulation.Reseau">
+              <point x="89.19999999999993" y="100.5" />
+              <point x="512.4499999999999" y="427.0" />
+              <point x="571.3628787878787" y="427.0" />
+              <point x="34.25" y="-64.0" />
+            </edge>
+            <edge source="simulation.Entrepot" target="simulation.Batiment">
+              <point x="-78.75" y="-52.0" />
+              <point x="26.25" y="715.0" />
+              <point x="71.68787878787862" y="715.0" />
+              <point x="71.68787878787862" y="171.0" />
+              <point x="577.95" y="171.0" />
+              <point x="-80.80000000000001" y="75.5" />
+            </edge>
+            <edge source="simulation.Observable" target="simulation.Observateur">
+              <point x="70.5" y="-64.0" />
+              <point x="441.5" y="715.0" />
+              <point x="436.9050505050503" y="715.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="simulation.Usine" target="simulation.Reseau">
+              <point x="0.0" y="-76.0" />
+              <point x="698.8186868686868" y="715.0" />
+              <point x="726.9166666666667" y="715.0" />
+              <point x="726.9166666666667" y="610.0" />
+              <point x="639.8628787878787" y="610.0" />
+              <point x="102.75" y="64.0" />
+            </edge>
+            <edge source="simulation.SimulationEtat" target="simulation.Reseau">
+              <point x="0.0" y="-100.5" />
+              <point x="587.4550505050504" y="917.0" />
+              <point x="578.3186868686868" y="917.0" />
+              <point x="578.3186868686868" y="610.0" />
+              <point x="571.3628787878787" y="610.0" />
+              <point x="34.25" y="64.0" />
+            </edge>
+            <edge source="simulation.SimulationEtat" target="simulation.Observable">
+              <point x="-95.60000000000002" y="-100.5" />
+              <point x="491.8550505050504" y="917.0" />
+              <point x="371.0" y="917.0" />
+              <point x="0.0" y="64.0" />
+            </edge>
+            <edge source="simulation.Ressource" target="simulation.Batiment">
+              <point x="0.0" y="-100.5" />
+              <point x="423.25" y="181.0" />
+              <point x="618.35" y="181.0" />
+              <point x="-40.39999999999998" y="75.5" />
+            </edge>
+            <edge source="simulation.StrategieStatique" target="simulation.Strategie">
+              <point x="0.0" y="-15.5" />
+              <point x="919.8421717171717" y="917.0" />
+              <point x="931.3550505050504" y="917.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="simulation.Chemin" target="simulation.Batiment">
+              <point x="0.0" y="-51.5" />
+              <point x="0.0" y="75.5" />
+            </edge>
+            <edge source="simulation.Reseau" target="simulation.Ressource">
+              <point x="-34.25" y="-64.0" />
+              <point x="502.8628787878787" y="427.0" />
+              <point x="467.8499999999999" y="427.0" />
+              <point x="44.59999999999991" y="100.5" />
+            </edge>
+            <edge source="simulation.Entrepot" target="simulation.Observateur">
+              <point x="78.75" y="-52.0" />
+              <point x="183.75" y="705.0" />
+              <point x="360.1050505050504" y="705.0" />
+              <point x="-76.80000000000001" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7094650205761317" x="608.0" y="588.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/utils/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/stategies/StrategieAleatoire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/stategies/StrategieStatique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/state/Reseau.java" />
+    <entry file="file://$PROJECT_DIR$/src/simulation/stategies/Strategie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/utils/Observateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/utils/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/composants/Composant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/composants/Metal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/composants/Moteur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/composants/Avion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/Batiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/FenetreStrategie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/Environnement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/FenetrePrincipale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/PanneauPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/PanneauStrategie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/display/MenuFenetre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="53" column="90" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineAile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineMoteur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineMetal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/Chemin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="44" selection-start-line="44" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/UsineAssemblage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/composants/Aile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/Usine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/models/Entrepot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ressources/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simulation/state/SimulationEtat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

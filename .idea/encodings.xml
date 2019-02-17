@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/simulation/display/Environnement.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/simulation/display/FenetrePrincipale.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/simulation/display/FenetreStrategie.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/simulation/display/MenuFenetre.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/simulation/display/PanneauPrincipal.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/simulation/display/Simulation.java" charset="ISO-8859-1" />
+  </component>
+</project>
