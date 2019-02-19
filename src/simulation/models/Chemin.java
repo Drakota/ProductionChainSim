@@ -24,14 +24,16 @@ public class Chemin {
     public Integer[] calculateSpeedVec() {
         int speedX;
         int speedY;
-        if (sender.getX() - receiver.getX() == 0)
+        Point sendCoords = sender.getCoordinates();
+        Point recCoords = receiver.getCoordinates();
+        if (sendCoords.x - recCoords.x == 0)
             speedX = 0;
-        else if (sender.getX() - receiver.getX() > 0)
+        else if (sendCoords.x - recCoords.x > 0)
             speedX = -1;
         else speedX = 1;
-        if (sender.getY() - receiver.getY() == 0)
+        if (sendCoords.y - recCoords.y == 0)
             speedY = 0;
-        else if (sender.getY() - receiver.getY() > 0)
+        else if (sendCoords.y - recCoords.y > 0)
             speedY = -1;
         else speedY = 1;
         return new Integer[] {speedX, speedY};
@@ -46,10 +48,9 @@ public class Chemin {
         while (i.hasNext()) {
             Composant composant = i.next(); // must be called before you can call i.remove()
 
-            composant.setX(composant.getX() + speedVec[0]);
-            composant.setY(composant.getY() + speedVec[1]);
+            composant.getCoordinates().translate(speedVec[0], speedVec[1]);
 
-            if (composant.getX() == receiver.getX() && composant.getY() == receiver.getY())
+            if (composant.getCoordinates().x == receiver.getCoordinates().x && composant.getCoordinates().y == receiver.getCoordinates().y)
             {
                 i.remove();
                 receiver.addComponent(composant);
@@ -58,10 +59,12 @@ public class Chemin {
     }
 
     public void draw(Graphics g) {
-        g.drawLine(sender.getX() + sender.getCurrentImage().getWidth() / 2, sender.getY() + sender.getCurrentImage().getHeight() / 2,
-                receiver.getX() + receiver.getCurrentImage().getWidth() / 2, receiver.getY() + receiver.getCurrentImage().getHeight() / 2);
+        Point sendCoords = sender.getCoordinates();
+        Point recCoords = receiver.getCoordinates();
+        g.drawLine(sendCoords.x + sender.getCurrentImage().getWidth() / 2, sendCoords.y + sender.getCurrentImage().getHeight() / 2,
+                recCoords.x + receiver.getCurrentImage().getWidth() / 2, recCoords.y + receiver.getCurrentImage().getHeight() / 2);
         for (Composant composant: composants) {
-            g.drawImage(composant.getImage(), composant.getX(), composant.getY(), null);
+            g.drawImage(composant.getImage(), composant.getCoordinates().x, composant.getCoordinates().y, null);
         }
     }
 }

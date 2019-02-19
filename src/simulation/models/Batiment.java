@@ -3,6 +3,7 @@ package simulation.models;
 import simulation.composants.Composant;
 
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.ArrayList;
@@ -12,10 +13,10 @@ public abstract class Batiment {
     protected Integer id;
     protected String type;
     protected List<BufferedImage> images;
-    protected Integer[] coordinates;
+    protected Point coordinates;
     protected List<Composant> composants;
 
-    public Batiment(Integer id, Integer[] coordinates, String[] imgPaths) {
+    public Batiment(Integer id, Point coordinates, String[] imgPaths) {
         this.id = id;
         this.coordinates = coordinates;
         this.images = new ArrayList<>();
@@ -28,12 +29,8 @@ public abstract class Batiment {
         catch (Exception e) {}
     }
 
-    public Integer getX() {
-        return this.coordinates[0];
-    }
-
-    public Integer getY() {
-        return this.coordinates[1];
+    public Point getCoordinates() {
+        return this.coordinates;
     }
 
     public Integer getId() {
@@ -42,11 +39,9 @@ public abstract class Batiment {
 
     public abstract void nextTurn();
 
-    public void connect(Chemin chemin){}
+    public abstract void connect(Chemin chemin);
 
-    public void addComponent(Composant composant) {
-        composants.add(composant);
-    }
+    public abstract void addComponent(Composant composant);
 
     public abstract BufferedImage getCurrentImage();
 }

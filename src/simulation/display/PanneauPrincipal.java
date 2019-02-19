@@ -14,7 +14,7 @@ public class PanneauPrincipal extends JPanel implements PropertyChangeListener {
 
 	private static final long serialVersionUID = 1L;
 	///////////////////////////////// TO REMOVE //////////////////////////////////
-	private SimulationEtat simState = new SimulationEtat(XMLParser.getInstance().readConfig("/home/drakota/Documents/Projects/Java/Lab1/src/ressources/configuration.xml"));
+	private SimulationEtat simState = new SimulationEtat(XMLParser.getInstance().readConfig("src/ressources/configuration.xml"));
 
 	@Override
 	public void propertyChange(PropertyChangeEvent evt) {

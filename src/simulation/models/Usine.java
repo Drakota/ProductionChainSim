@@ -1,7 +1,9 @@
 package simulation.models;
 
+import simulation.composants.Composant;
 import simulation.utils.Observateur;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,22 +14,30 @@ public abstract class Usine extends Batiment implements Observateur {
     protected Chemin tradeRoute;
 
     public Usine(int id, int x, int y, String[] imgPaths, Integer productionInterval) {
-        super(id, new Integer[] {x, y}, imgPaths);
+        super(id, new Point(x, y), imgPaths);
         this.productionInterval = productionInterval;
         this.productionTimer = 0;
     }
 
     @Override
-    public void update() {
+    public void getNotified(Double capacityPercentage) {
+        if  (capacityPercentage > 90) {
+            this.productionInterval = 0;
+        }
+        else {
+            this.productionInterval = productionInterval + capacityPercentage.intValue();
+        }
     }
 
     @Override
     public void connect(Chemin chemin) {
-        super.connect(chemin);
         tradeRoute = chemin;
     }
 
-    public abstract void nextTurn();
+    @Override
+    public void addComponent(Composant composant) {
+        this.composants.add(composant);
+    }
 
     @Override
     public BufferedImage getCurrentImage() {
@@ -43,4 +53,6 @@ public abstract class Usine extends Batiment implements Observateur {
         }
         else return this.images.get(0);
     }
+
+    public abstract void nextTurn();
 }

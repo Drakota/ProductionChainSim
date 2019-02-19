@@ -12,7 +12,7 @@ public class UsineMetal extends Usine {
         ++productionTimer;
         if (productionTimer.equals(productionInterval)) {
             productionTimer = 0;
-            this.tradeRoute.addComposant(new Metal(getX(), getY()));
+            this.tradeRoute.addComposant(new Metal(coordinates.x, coordinates.y));
         }
     }
 }

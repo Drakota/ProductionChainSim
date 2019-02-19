@@ -19,7 +19,7 @@ public class UsineAile extends Usine {
             if (productionTimer.equals(productionInterval)) {
                 composants = composants.subList(metalRequired, composants.size());
                 productionTimer = 0;
-                this.tradeRoute.addComposant(new Aile(getX(), getY()));
+                this.tradeRoute.addComposant(new Aile(coordinates.x, coordinates.y));
             }
         }
     }

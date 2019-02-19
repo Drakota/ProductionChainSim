@@ -3,16 +3,12 @@ package simulation.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Observable {
-    protected List<Observateur> observateurs = new ArrayList<>();
+public interface Observable {
+    List<Observateur> observateurs = new ArrayList<>();
 
-    public void addObserver(Observateur obs) {
-        this.observateurs.add(obs);
-    }
+    void addObserver(Observateur obs);
 
-    public void removeObserver(Observateur obs) {
-        this.observateurs.remove(obs);
-    }
+    void removeObserver(Observateur obs);
 
-    public abstract void notifyObservers();
+    void notifyObservers();
 }

@@ -17,7 +17,7 @@ public class UsineMoteur extends Usine {
             if (productionTimer.equals(productionInterval)) {
                 composants = composants.subList(metalRequired, composants.size());
                 productionTimer = 0;
-                this.tradeRoute.addComposant(new Moteur(getX(), getY()));
+                this.tradeRoute.addComposant(new Moteur(coordinates.x, coordinates.y));
             }
         }
     }

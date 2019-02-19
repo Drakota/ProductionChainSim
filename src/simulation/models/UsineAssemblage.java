@@ -47,7 +47,7 @@ public class UsineAssemblage extends Usine {
                 removeComponent(Moteur.class, moteursRequired);
                 removeComponent(Aile.class, ailesRequired);
                 productionTimer = 0;
-                this.tradeRoute.addComposant(new Avion(getX(), getY()));
+                this.tradeRoute.addComposant(new Avion(coordinates.x, coordinates.y));
             }
         }
     }

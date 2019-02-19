@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SimulationEtat extends Observable {
+public class SimulationEtat {
     private List<Batiment> batiments = new ArrayList<>();
     private List<Chemin> chemins = new ArrayList<>();
     private Strategie strategie;
@@ -87,6 +87,21 @@ public class SimulationEtat extends Observable {
         return batimentsList;
     }
 
+    public void subscribeToWarehouse() {
+        List<Batiment> tempBatiments = new ArrayList(this.batiments);
+        Batiment entrepot = null;
+        for (Batiment batiment: tempBatiments) {
+            if (batiment.getClass() == Entrepot.class) {
+                entrepot = batiment;
+                tempBatiments.remove(batiment);
+                break;
+            }
+        }
+        for (Batiment batiment: tempBatiments) {
+            ((Entrepot)entrepot).addObserver((Usine)batiment);
+        }
+    }
+
     public List<Chemin> createRoutes(List<Map<String, String>> routes) {
         List<Chemin> chemins = new ArrayList<>();
         for (Map<String, String> route: routes) {
@@ -101,7 +116,7 @@ public class SimulationEtat extends Observable {
 
     public Batiment findBatimentByID(Integer id) {
         for (Batiment batiment: this.batiments) {
-            if (batiment.getId() == id) {
+            if (batiment.getId().equals(id)) {
                 return batiment;
             }
         }
@@ -110,6 +125,7 @@ public class SimulationEtat extends Observable {
 
     public SimulationEtat(Object[] config) {
         this.batiments = createBatiments((List<Map<String, String>>)config[0],(List<Map<String, String>>)config[1]);
+        subscribeToWarehouse();
         this.chemins = createRoutes((List<Map<String, String>>)config[2]);
     }
 
@@ -118,7 +134,7 @@ public class SimulationEtat extends Observable {
             chemin.draw(g);
         }
         for (Batiment batiment: batiments) {
-            g.drawImage(batiment.getCurrentImage(), batiment.getX(), batiment.getY(), null);
+            g.drawImage(batiment.getCurrentImage(), batiment.getCoordinates().x, batiment.getCoordinates().y, null);
         }
     }
 
@@ -128,12 +144,6 @@ public class SimulationEtat extends Observable {
         }
         for (Chemin chemin: chemins) {
             chemin.nextTurn();
-        }
-    }
-
-    @Override
-    public void notifyObservers() {
-        for (Observateur observateur: this.observateurs) {
         }
     }
 }
